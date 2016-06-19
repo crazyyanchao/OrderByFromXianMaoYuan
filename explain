@@ -1,2 +1,10 @@
-Company + OrderNumbermapkey
-KeycompareCompany+OrderNumberKey
+尝试用mapreduce实现SQL中的Order By。
+
+
+请实现http://www.w3school.com.cn/sql/sql_orderby.asp中实例4所描述的功能。
+
+my answer ：
+
+以Company+OrderNumber作为map的联合输出Key。
+
+并且在key的compare中，按照Company的逆序+OrderNumber的顺序进行key值对比。
